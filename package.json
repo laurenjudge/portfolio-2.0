@@ -1,11 +1,17 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Link to the original post is <span style=\"color: coral\"> LINK HERE </span>.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "node-sass --include-path scss css/main.scss css/style.css",
+    "uglify-css": "uglifycss css/style.css > css/style.min.css",
+    "watch": "nodemon -e scss -x 'npm run css  && npm run uglify-css'"
   },
   "author": "Lauren Judge",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
 }
