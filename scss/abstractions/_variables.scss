@@ -1,0 +1,27 @@
+// Colours:
+$color-primary: #64ffda;
+$color-background: #0a192f;
+
+$color-text-body: #8892b0;
+$color-text-body-dark: #8892b0;
+$color-text-heading: #ccd6f6;
+
+// Font sizes
+$default-text-size: 1.2rem;
+
+
+/*-----------------------------------------------*/
+/* Breakpoints */
+/*-----------------------------------------------*/
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

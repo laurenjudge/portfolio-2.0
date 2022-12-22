@@ -1,0 +1,57 @@
+.navigation {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: end;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+
+    &__ul {
+        list-style: none; 
+    }
+
+    &__link {
+        text-decoration: none;
+
+        &:link,
+        &:visited {
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+            -webkit-transition: border-bottom 0.2s;
+            -moz-transition: border-bottom 0.2s;
+            -ms-transition: border-bottom 0.2s;
+            -o-transition: border-bottom 0.2s;
+        }
+        
+        &:hover,
+        &:active {
+            border-bottom: 2px solid $color-primary;
+            padding-bottom: .8rem;
+        }
+
+    }
+}
+
+
+/*-----------------------------------------------*/
+/* Main Nav */
+/*-----------------------------------------------*/
+
+.navigation-main {
+    position: absolute;
+
+    &__item { 
+        padding: 5.5rem 2rem; 
+    }
+
+    &__link {
+
+        &:link,
+        &:visited { 
+            padding-bottom: .8rem;
+            color: $color-text-body-dark; 
+        }
+    }
+}

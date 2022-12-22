@@ -1,1 +1,7 @@
-@import "../scss/base";
+@import "../scss/abstractions/mixins";
+@import "../scss/abstractions/variables";
+
+@import "../scss/base/base";
+
+@import "../scss/layout/navigation";
+

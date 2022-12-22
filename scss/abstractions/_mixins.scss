@@ -1,0 +1,25 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == small-tablet {
+        @media (min-width: #{$screen-sm-min}) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == small-tablet-port {
+        @media (min-width: #{$screen-md-min}) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == small-laptop {
+        @media (min-width: #{$screen-lg-min}) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == large-laptop {
+        @media (min-width: #{$screen-xl-min}) {
+            @content;
+        }
+    }
+}
