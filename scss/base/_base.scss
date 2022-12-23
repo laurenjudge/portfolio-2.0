@@ -8,13 +8,22 @@
 
 body {
     min-height: 100vh;
-    padding-left: $body-padding-left;
+    padding-left: $navigation-width;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: $body-text-size-default;
     color: $color-text-body;
     background-color: $color-background;
     text-rendering: optimizeLegibility;
+}
+
+section {
+    margin: 3rem 0;
+}
+
+.main-sections {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -24,22 +33,4 @@ h1 {
 a {
     text-decoration: none;
     color: currentColor;
-}
-
-.text-primary {
-    color: $color-text-primary;
-}
-
-.btn {
-    padding: 0.9rem 1.2rem;
-    border: 1px solid $color-primary;
-    border-radius: 3px;
-    color: $color-primary;
-
-
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: rgba($color-primary, 0.1);
-    }
 }

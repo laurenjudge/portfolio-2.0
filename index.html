@@ -14,7 +14,7 @@
       <a href="#home" class="navigation__link">Home</a>
       <a href="#about" class="navigation__link">About</a>
       <a href="#projects" class="navigation__link">Projects</a>
-      <a href="#contact" class="navigation__link">Contact</a>
+      <a href="#work" class="navigation__link">Work History</a>
       <div class="navigation__social-container">
         <a class="navigation__social-link" href="https://github.com/laurenjudge" aria-label="GitHub" target="_blank" rel="noreferrer">
           <svg class="navigation__social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -52,9 +52,81 @@
           <a href="#projects" class="btn">View projects</a>
       </div>
     </header>
-    <main>
+    <main class="main-sections">
+      <section class="about" id="about">
+        <h2 class="section-header">About me</h2>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="section-header">Projects</h2>
+        <div>
+
+        </div>
+      </section>
+      <section class="work" id="work">
+        <h2 class="section-header">Work History</h2>
+        <div class="tabs">
+          <div class="tabs__list">
+            
+            <button class="tabs__button js--tab tab-1 active" role="tab" data-tab="1"><span>Reejig</span></button>
+            <button class="tabs__button js--tab tab-2" role="tab" data-tab="2"><span>BTS</span></button>
+            <button class="tabs__button js--tab tab-3" role="tab" data-tab="3"><span>School Bytes</span></button>
+            <button class="tabs__button js--tab tab-4" role="tab" data-tab="4"><span>Galaxy9</span></button>
+            <button class="tabs__button js--tab tab-5" role="tab" data-tab="5"><span>Process Creative</span></button>
+            <button class="tabs__button js--tab tab-6" role="tab" data-tab="6"><span>4Mation Technologies</span></button>
+        
+            <span class="active-highlight"></span>
+            
+          </div>
+        
+          <div class="tabs__content--wrapper js--tab-content-wrapper">
+        
+            <div class="tabs__content visible js--tab-content" role="tabpanel" data-tab="1">
+              <h3>Software Engineer @ <a class="link-primary" href="https://www.reejig.com/" target="_blank">Reejig</a></h3>
+              <p>
+              </p>
+            </div>
+        
+            <div class="tabs__content js--tab-content" role="tabpanel" data-tab="2">
+              <h3>Software Engineer @ <a class="link-primary" href="https://bts.com/" target="_blank">BTS Consulting</a></h3>
+              <p>
+
+              </p>
+            </div>
+        
+            <div class="tabs__content js--tab-content" role="tabpanel" data-tab="3">
+              <h3>Software Engineer @ <a class="link-primary" href="https://www.schoolbytes.education/" target="_blank">School Bytes</a></h3>
+              <p>
+
+              </p>
+            </div>
+
+            <div class="tabs__content js--tab-content" role="tabpanel" data-tab="4">
+              <h3>Software Engineer @ <a class="link-primary" href="https://www.galaxy9.com.au/" target="_blank">Galaxy9</a></h3>
+              <p>
+
+              </p>
+            </div>
+
+            <div class="tabs__content js--tab-content" role="tabpanel" data-tab="5">
+              <h3>Frontend Developer @ <a class="link-primary" href="https://processcreative.com.au/" target="_blank">Process Creative</a></h3>
+              <p>
+
+              </p>
+            </div>
+
+            <div class="tabs__content js--tab-content" role="tabpanel" data-tab="6">
+              <h3>Frontend Developer @ <a class="link-primary" href="https://www.4mation.com.au/" target="_blank">4Mation Technologies</a></h3>
+              <p>
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
     </main>
     <footer>
     </footer>
+    <script src="js/tabs.js"></script>
   </body>
 </html>

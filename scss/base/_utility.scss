@@ -1,0 +1,43 @@
+.text-primary {
+    color: $color-text-primary;
+}
+
+.link-primary {
+    color: $color-text-primary;
+
+    &:link,
+    &:visited {
+        padding-bottom: 0.3rem;
+        color: $color-text-primary;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.2s;
+        -webkit-transition: border-bottom 0.2s;
+        -moz-transition: border-bottom 0.2s;
+        -ms-transition: border-bottom 0.2s;
+        -o-transition: border-bottom 0.2s;
+    }
+    
+    &:hover,
+    &:active,
+    &:focus {
+        border-bottom: 2px solid $color-primary;
+    }
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.9rem 1.2rem;
+    border: 1px solid $color-primary;
+    border-radius: 3px;
+    color: $color-primary;
+
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: rgba($color-primary, 0.1);
+    }
+}

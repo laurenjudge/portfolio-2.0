@@ -1,13 +1,14 @@
 // Colours:
 $color-primary: #64ffda;
 $color-background: #0a192f;
-$color-background-overlay: rgba($color-background, 0.9);
+$color-background-overlay: rgba($color-background, 0.85);
 
 $color-text-primary: $color-primary;
 $color-text-body: #ccd6f6;
 $color-text-body-dark: #8892b0;
 
 $color-black: #000000;
+$color-light: #233554;
 
 // Font sizes
 $body-text-size-default: 1.2rem; // to do: update this for mobile/small screens
@@ -17,7 +18,7 @@ $body-text-size-desktop: 1.2rem;
 $h1-text-size-desktop: 3.8rem;
 
 // Spacing
-$body-padding-left: 11rem;
+$navigation-width: 9rem;
 
 /*-----------------------------------------------*/
 /* Breakpoints */
