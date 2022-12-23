@@ -22,7 +22,8 @@ h1 {
   font-size: 3.8rem; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: currentColor; }
 
 .text-primary {
   color: #64ffda; }
@@ -108,3 +109,12 @@ a {
       -o-transition: border-bottom 0.2s; }
     .navigation__link:hover, .navigation__link:active, .navigation__link:focus {
       border-bottom: 2px solid #64ffda; }
+  .navigation__social-container {
+    margin-top: 3rem; }
+  .navigation__social-link {
+    transition: color 0.2s; }
+    .navigation__social-link:hover, .navigation__social-link:focus, .navigation__social-link:active {
+      color: #64ffda; }
+  .navigation__social-icon {
+    width: 20px;
+    height: 20px; }
