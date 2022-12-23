@@ -36,12 +36,17 @@
 
     &__intro {
         position: absolute;
-        top: 20%;
-        left: 10%;
+        top: 50%;
         z-index: 1000;
-
-        &--paragraph {
-            margin-bottom: 3rem;
-        }
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 3rem;
     }
 }

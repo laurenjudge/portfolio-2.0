@@ -7,12 +7,17 @@ $color-text-primary: $color-primary;
 $color-text-body: #ccd6f6;
 $color-text-body-dark: #8892b0;
 
+$color-black: #000000;
+
 // Font sizes
 $body-text-size-default: 1.2rem; // to do: update this for mobile/small screens
 $h1-text-size-default: 3.8rem;
 
 $body-text-size-desktop: 1.2rem;
 $h1-text-size-desktop: 3.8rem;
+
+// Spacing
+$body-padding-left: 11rem;
 
 /*-----------------------------------------------*/
 /* Breakpoints */
