@@ -41,3 +41,21 @@
         background-color: rgba($color-primary, 0.1);
     }
 }
+
+.link {
+    transition: color 0.2s;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $color-primary;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    &--medium {
+        width: 25px;
+        height: 25px;
+    }
+}

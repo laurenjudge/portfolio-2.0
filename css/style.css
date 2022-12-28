@@ -20,14 +20,21 @@ body {
   text-rendering: optimizeLegibility; }
 
 section {
-  margin: 3rem 0; }
+  margin: 7rem 0; }
 
 .main-sections {
   max-width: 1140px;
+  width: 90%;
   margin: 0 auto; }
 
 h1 {
   font-size: 3.8rem; }
+
+h2 {
+  font-size: 2.3rem; }
+
+h3 {
+  font-size: 1.7rem; }
 
 a {
   text-decoration: none;
@@ -60,6 +67,18 @@ a {
   color: #64ffda; }
   .btn:hover, .btn:focus, .btn:active {
     background-color: rgba(100, 255, 218, 0.1); }
+
+.link {
+  transition: color 0.2s; }
+  .link:hover, .link:focus, .link:active {
+    color: #64ffda; }
+
+.icon {
+  width: 20px;
+  height: 20px; }
+  .icon--medium {
+    width: 25px;
+    height: 25px; }
 
 .tabs {
   display: flex; }
@@ -137,22 +156,35 @@ a {
       z-index: 2; }
 
 .card {
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .card:not(:first-child) {
-    margin-top: 3rem; }
+    margin-top: 4rem; }
+  .card__header {
+    margin-bottom: 0.5rem; }
   .card__text {
     margin-left: 1.5rem; }
-  .card__list {
+  .card__pill-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1rem 0; }
-    .card__list--item {
+    margin: 0.5rem 0 1rem 0; }
+    .card__pill-list--item {
       border-radius: 5px;
       padding: 0.2rem 0.5rem;
       border: 1px solid #64ffda;
-      margin-right: 0.8rem; }
+      margin-right: 0.8rem;
+      margin-top: 0.5rem; }
+  .card__links {
+    margin-top: 1.5rem; }
+  .card__read-more {
+    display: block;
+    margin-top: 0.8rem;
+    text-decoration: underline; }
+  .card__header-link:first-child {
+    margin-left: 2rem;
+    margin-right: 0.5rem; }
 
 .image-grid {
   padding: 0.3rem 0.2rem;
@@ -246,10 +278,4 @@ a {
   .navigation__social-container {
     margin-top: 3rem; }
   .navigation__social-link {
-    transition: color 0.2s;
     margin: 0 0.4rem; }
-    .navigation__social-link:hover, .navigation__social-link:focus, .navigation__social-link:active {
-      color: #64ffda; }
-  .navigation__social-icon {
-    width: 20px;
-    height: 20px; }

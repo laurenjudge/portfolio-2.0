@@ -42,17 +42,6 @@
     }
 
     &__social-link {
-        transition: color 0.2s;
         margin: 0 0.4rem;
-        &:hover,
-        &:focus,
-        &:active {
-            color: $color-primary;
-        }
-    }
-
-    &__social-icon {
-        width: 20px;
-        height: 20px;
     }
 }

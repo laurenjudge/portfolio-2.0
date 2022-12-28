@@ -19,16 +19,25 @@ body {
 }
 
 section {
-    margin: 3rem 0;
+    margin: 7rem 0;
 }
 
 .main-sections {
     max-width: 1140px;
+    width: 90%;
     margin: 0 auto;
 }
 
 h1 {
     font-size: $h1-text-size-default;
+}
+
+h2 {
+    font-size: $h2-text-size-desktop;
+}
+
+h3 {
+    font-size: $h3-text-size-desktop;
 }
 
 a {
