@@ -36,6 +36,7 @@
         </a>
       </div>
     </nav>
+
     <header class="header" id="home"> 
       <div class="header__bg">
           <div class="header__bg--overlay"></div>
@@ -44,7 +45,6 @@
               Your browser is not supported!
           </video>
       </div>
-
       <div class="header__intro">
           <h1 class="header__title">Hello, I'm
             <span class="text-primary">Lauren Judge</span>.
@@ -52,16 +52,68 @@
           <a href="#projects" class="btn">View projects</a>
       </div>
     </header>
+
     <main class="main-sections">
       <section class="about" id="about">
         <h2 class="section-header">About me</h2>
       </section>
+
       <section class="projects" id="projects">
         <h2 class="section-header">Projects</h2>
         <div>
+          <div class="card">
+            <div class="card__image image-grid">
+              <img class="image-grid__item" src="./assets/Project screenshots/pocket-planner.jpg" alt="">
+              <img class="image-grid__item" src="./assets/Project screenshots/pocket-planner2.jpg" alt="">
+              <img class="image-grid__item" src="./assets/Project screenshots/pocket-planner9.jpg" alt="">
+            </div>
+            <div class="card__text">
+              <h3>Pocket Planner</h3>
+              <div>
+                This is a fullstack progressive web application that contains user authentication and offline browsing (utalising cache first strategy).
+                Some key features are the ability to organise your itinerary into a readable timeline, add a packing list for each trip, and select a display photo for each trip (utalising the Unsplash API).
+              </div>
+              <ul class="card__list">
+                <li class="card__list--item">Vue</li>
+                <li class="card__list--item">Node.js</li>
+                <li class="card__list--item">MongoDB</li>
+                <li class="card__list--item">Express.js</li>
+                <li class="card__list--item">PWA</li>
+                <li class="card__list--item">Vuetify</li>
+              </ul>
+              <i>
+                Private repository - can be shared upon request
+              </i>
+            </div>
+          </div>
 
+          <div class="card">
+            <div class="card__image image-grid">
+              <img class="image-grid__item" src="./assets/Project screenshots/recipe-book2.jpg" alt="">
+              <img class="image-grid__item" src="./assets/Project screenshots/recipe-book3.jpg" alt="">
+              <img class="image-grid__item" src="./assets/Project screenshots/recipe-book4.jpg" alt="">
+            </div>
+            <div class="card__text">
+              <h3>Recipe Book</h3>
+              <div>
+                A website where I store my cocktail and dinner recipes. <br/>
+                Some key features are the ability to search cocktails by its tags, and the ability to calculate the amount of ingredients needed (using the number of servings dropdown menu).
+              </div>
+              <ul class="card__list">
+                <li class="card__list--item">Vue</li>
+                <li class="card__list--item">Firebase</li>
+              </ul>
+              <div>
+                <a href="https://github.com/laurenjudge/Recipes" target="_blank" aria-label="GitHub Link" rel="noopener noreferrer">
+                  View Code
+                </a>
+                <a href="https://cocktail-recipes-a99c1.web.app/" target="_blank" aria-label="View Live" rel="noopener noreferrer">View Live</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
       <section class="work" id="work">
         <h2 class="section-header">Work History</h2>
         <div class="tabs">
@@ -122,7 +174,6 @@
             </div>
           </div>
         </div>
-
       </section>
     </main>
     <footer>

@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+
+    &:not(:first-child) {
+        margin-top: 3rem;
+    }
+
+    &__text {
+        margin-left: 1.5rem;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 1rem 0;
+        
+        &--item {
+            border-radius: 5px;
+            padding: 0.2rem 0.5rem;
+            border: 1px solid $color-primary;
+            margin-right: 0.8rem;
+        }
+    }
+}
