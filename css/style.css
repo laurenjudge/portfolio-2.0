@@ -80,6 +80,19 @@ a {
     width: 25px;
     height: 25px; }
 
+.pill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0.5rem 0 1rem 0; }
+  .pill-list__item {
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #64ffda;
+    margin-right: 0.8rem;
+    margin-top: 0.5rem; }
+
 .tabs {
   display: flex; }
   .tabs__list {
@@ -139,7 +152,9 @@ a {
     z-index: 10; }
   .tabs__content--wrapper {
     position: relative;
-    padding: 0; }
+    padding: 0;
+    width: 80%;
+    margin-left: 1rem; }
   .tabs__content {
     position: absolute;
     top: 0;
@@ -154,6 +169,10 @@ a {
       height: auto;
       transition: opacity 0.5s ease;
       z-index: 2; }
+    .tabs__content--list {
+      margin: 1rem 0 1rem 1rem; }
+      .tabs__content--list li:not(:first-child) {
+        margin-top: 0.5rem; }
 
 .card {
   display: flex;
@@ -164,20 +183,6 @@ a {
     margin-bottom: 0.5rem; }
   .card__text {
     margin-left: 1.5rem; }
-  .card__pill-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0.5rem 0 1rem 0; }
-    .card__pill-list--item {
-      border-radius: 5px;
-      padding: 0.2rem 0.5rem;
-      border: 1px solid #64ffda;
-      margin-right: 0.8rem;
-      margin-top: 0.5rem; }
-  .card__links {
-    margin-top: 1.5rem; }
   .card__read-more {
     display: block;
     margin-top: 0.8rem;

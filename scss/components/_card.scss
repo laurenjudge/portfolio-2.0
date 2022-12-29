@@ -14,22 +14,6 @@
         margin-left: 1.5rem;
     }
 
-    &__pill-list {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0.5rem 0 1rem 0;
-        
-        &--item {
-            border-radius: 5px;
-            padding: 0.2rem 0.5rem;
-            border: 1px solid $color-primary;
-            margin-right: 0.8rem;
-            margin-top: 0.5rem;
-        }
-    }
-
     &__read-more {
         display: block;
         margin-top: 0.8rem;
