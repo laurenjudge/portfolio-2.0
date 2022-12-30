@@ -221,8 +221,7 @@ a {
     display: block;
     margin-top: 0.8rem;
     text-decoration: underline; }
-  .card__header-link:first-child {
-    margin-left: 2rem;
+  .card__main-link {
     margin-right: 0.5rem; }
   .card__image {
     background: rgba(204, 214, 246, 0.6);

@@ -20,11 +20,8 @@
         text-decoration: underline;
     }
 
-    &__header-link {
-        &:first-child {
-            margin-left: 2rem;
-            margin-right: 0.5rem;
-        }
+    &__main-link {
+        margin-right: 0.5rem;
     }
 
     &__image {
