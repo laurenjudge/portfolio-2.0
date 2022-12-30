@@ -14,7 +14,7 @@
         margin-left: 1.5rem;
     }
 
-    &__read-more {
+    &__feature-link {
         display: block;
         margin-top: 0.8rem;
         text-decoration: underline;
@@ -25,5 +25,11 @@
             margin-left: 2rem;
             margin-right: 0.5rem;
         }
+    }
+
+    &__image {
+        background: rgba(204,214,246,0.6);
+        padding: 0.3rem 0.2rem;
+        border-radius: 5px;
     }
 }

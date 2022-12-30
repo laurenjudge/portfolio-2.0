@@ -75,3 +75,46 @@
         margin-top: 0.5rem;
     }
 }
+
+
+.img-container {
+	position: relative;
+	padding-bottom: 0;
+	overflow: hidden;
+	width: 100%;
+    width: 410px;
+}
+
+.img-container-inner {
+    padding-bottom: 63%;
+	width: 100%;
+	position: relative;
+
+    &--grid {
+        padding-bottom: 51%;
+        width: 100%;
+	    position: relative;
+    }
+}
+
+.img-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__item {
+        height: 100%;
+        margin: 0 0.2rem;
+        border-radius: 2px;
+    }
+}
+
+.img {
+	object-fit: cover;
+	width: 98.5%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+    margin: 0 0.2rem;
+    border-radius: 2px;
+}
