@@ -11,15 +11,23 @@ body {
     padding-left: $navigation-width;
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: $body-text-size-default;
+    font-size: $body-text-size-desktop;
     line-height: 1.4;
     color: $color-text-body;
     background-color: $color-background;
     text-rendering: optimizeLegibility;
+
+    @include respond(small-laptop) {
+        padding: unset;
+        font-size: $body-text-size-small-screens;
+    }
 }
 
 section {
     margin: 7rem 0;
+    @include respond(small-laptop) {
+        margin: 5rem 0;
+    }
 }
 
 .main-sections {
@@ -29,15 +37,25 @@ section {
 }
 
 h1 {
-    font-size: $h1-text-size-default;
+    font-size: $h1-text-size-desktop;
+
+    @include respond(small-laptop) {
+        font-size: $h1-text-size-small-screens;
+    }
 }
 
 h2 {
     font-size: $h2-text-size-desktop;
+    @include respond(small-laptop) {
+        font-size: $h2-text-size-small-screens;
+    }
 }
 
 h3 {
     font-size: $h3-text-size-desktop;
+    @include respond(small-laptop) {
+        font-size: $h3-text-size-small-screens;
+    }
 }
 
 a {

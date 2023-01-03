@@ -14,13 +14,28 @@
     justify-content: center;
     background: $color-black;
 
+    @include respond(small-laptop) {
+        width: 100%;
+        left: 0;
+        height: 3rem;
+        flex-direction: row;
+        justify-content: flex-end;
+        z-index: 1000;
+        align-items: center;
+    }
+
     &__link {
         text-decoration: none;
         color: $color-text-body;
+        margin-bottom: 1.3rem;
+
+        @include respond(small-laptop) {
+            margin-bottom: unset;
+            margin-right: 1rem;
+        }
 
         &:link,
         &:visited {
-            margin-bottom: 1.3rem;
             color: $color-text-body;
             border-bottom: 2px solid transparent;
             transition: border-bottom 0.2s;
@@ -39,6 +54,10 @@
 
     &__social-container {
         margin-top: 3rem;
+        @include respond(small-laptop) {
+            margin-top: unset;
+            margin-right: 0.9rem;
+        }
     }
 
     &__social-link {

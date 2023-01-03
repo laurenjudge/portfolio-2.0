@@ -26,6 +26,9 @@
 
 .section-header {
     margin-bottom: 2rem;
+    @include respond(small-laptop) {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .btn {
@@ -34,6 +37,9 @@
     border-radius: 3px;
     color: $color-primary;
 
+    @include respond(small-laptop) {
+        padding: 0.7rem 0.9rem;
+    }
 
     &:hover,
     &:focus,

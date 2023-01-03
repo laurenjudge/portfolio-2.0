@@ -1,24 +1,24 @@
 @mixin respond($breakpoint) {
     @if $breakpoint == small-tablet {
-        @media (min-width: #{$screen-sm-min}) {
+        @media screen and (max-width: #{$screen-sm}) {
             @content;
         }
     }
 
     @if $breakpoint == small-tablet-port {
-        @media (min-width: #{$screen-md-min}) {
+        @media screen and (max-width: #{$screen-md}) {
             @content;
         }
     }
 
     @if $breakpoint == small-laptop {
-        @media (min-width: #{$screen-lg-min}) {
+        @media screen and (max-width: #{$screen-lg}) {
             @content;
         }
     }
 
     @if $breakpoint == large-laptop {
-        @media (min-width: #{$screen-xl-min}) {
+        @media screen and (max-width: #{$screen-xl}) {
             @content;
         }
     }

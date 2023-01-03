@@ -1,6 +1,9 @@
 .card {
     display: flex;
     align-items: center;
+    @include respond(small-laptop) {
+        flex-direction: column;
+    }
 
     &:not(:first-child) {
         margin-top: 4rem;
@@ -12,6 +15,9 @@
 
     &__text {
         margin-left: 1.5rem;
+        @include respond(small-laptop) {
+            margin: unset;
+        }
     }
 
     &__feature-link {

@@ -11,10 +11,13 @@ $color-black: #000000;
 $color-light: #233554;
 
 // Font sizes
-$body-text-size-default: 1rem; // to do: update this for mobile/small screens
-$h1-text-size-default: 3.8rem;
+$body-text-size-small-screens: 1rem;
+$body-text-size-desktop: 1.1rem;
 
-$body-text-size-desktop: 1.2rem;
+$h1-text-size-small-screens: 2.1rem;
+$h2-text-size-small-screens: 1.8rem;
+$h3-text-size-small-screens: 1.4rem;
+
 $h1-text-size-desktop: 3.8rem;
 $h2-text-size-desktop: 2.3rem;
 $h3-text-size-desktop: 1.7rem;
@@ -27,13 +30,13 @@ $navigation-width: 9rem;
 /*-----------------------------------------------*/
 
 // Small tablets and large smartphones (landscape view)
-$screen-sm-min: 576px;
+$screen-sm: 576px;
 
 // Small tablets (portrait view)
-$screen-md-min: 768px;
+$screen-md: 768px;
 
 // Tablets and small desktops
-$screen-lg-min: 992px;
+$screen-lg: 992px;
 
 // Large tablets and desktops
-$screen-xl-min: 1200px;
+$screen-xl: 1200px;
