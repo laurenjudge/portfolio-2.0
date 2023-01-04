@@ -6,6 +6,10 @@
     box-sizing: inherit;  
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     padding-left: $navigation-width;

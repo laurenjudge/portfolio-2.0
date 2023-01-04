@@ -8,6 +8,9 @@
   padding: 0px;
   box-sizing: inherit; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   min-height: 100vh;
   padding-left: 9rem;
@@ -182,7 +185,8 @@ a {
     height: 3rem;
     color: #ccd6f6;
     transition: all 0.25s ease;
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-align: left; }
     .tabs__button span {
       margin: 0 1rem; }
     .tabs__button.active {
